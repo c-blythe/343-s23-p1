@@ -13,7 +13,7 @@ div > ul {
     list-style-position: inside;
 }
 
-div a:visited {
+div a:link {
     color: goldenrod;
 }
 
