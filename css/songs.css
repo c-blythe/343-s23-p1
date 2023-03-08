@@ -17,6 +17,10 @@ div a:link {
     color: goldenrod;
 }
 
+div a:visited {
+    color: saddlebrown;
+}
+
 
 /* On mobile, Spotify's iframe will not be usable at 40% width,
    so this is used to expand it as needed */
