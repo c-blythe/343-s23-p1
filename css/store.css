@@ -23,7 +23,7 @@
 }
 
 .store-item > img { 
-    max-width: 20%;
+    max-width: 50%;
 }
 
 .store-item-1 {
@@ -44,4 +44,21 @@
 .store-item-4 {
     grid-row: 2;
     grid-column: 1;
+}
+
+@media (max-width: 1400px)
+{
+    .store-item > img { 
+        max-width: 50%;
+    }
+
+    .store-item-3 {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    
+    .store-item-4 {
+        grid-row: 2;
+        grid-column: 2;
+    }
 }
