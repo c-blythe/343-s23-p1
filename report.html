@@ -1,0 +1,97 @@
+<!-- This report is not part of the standard website, and should not be considered part of such.
+     It instead is for proof of concept notions and external requirements -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.ico">
+    <title>Report</title>
+
+    <style>
+        td {
+            padding: 1em 0em;
+            border-top: solid 0.25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li class="inactive" ><a href="index.html">Home</a></li>
+              <li class="inactive"><a href="songs.html">Songs</a></li>
+              <li class="inactive"><a href="store.html">Store</a></li>
+              <li class="inactive"><a href="tours.html">Tours</a></li>
+              <li class="inactive"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h1>Report</h1>
+    </header>
+
+    <table style="width:80% ">
+        <tr>
+            <th>Requirement</th>
+            <th>How it was met</th>
+        </tr>
+        <tr>
+            <td>Your site must contain at least five separate pages, each having a meaningful purpose. One of the files should be named index.html. Your pages must link to each other in a logical and meaningful flow. </td>
+            <td>Using the nav bar, 5 individual pages are shown. 
+                They each link to each other logically through the navigation bar that also shows the active tab.</td>
+        </tr>
+        <tr>
+            <td>Each page must declare its favicon (fine and possibly preferred to use the same one for all pages).</td>
+            <td>Every page has the same favicon.</td>
+        </tr>
+        <tr>
+            <td>Your site must include some sort of header.</td>
+            <td>Each page has a &lt;header&gt; element that contains the nav bar and the main header for the page.
+                In general, this creates a general sense of a header that is both informative and functional.</td>
+        </tr>
+        <tr>
+            <td>Your site must include some sort of navigation links.</td>
+            <td>The heading nav bar is used for internal navigation link.</td>
+        </tr>
+        <tr>
+            <td>Your site must support distinct layouts for large and small screens using media queries. Use comments to note where you completed this activity. You may do this in a variety of ways. Consider using this to control images or switching blocks between rows (for large screens) and columns (for small).</td>
+            <td>There are a few places this is done, such as the Home and Store pages. 
+                The Home page scales the image appropriately (removing the media query scales the image only to width and would leave blank space at the bottom).
+                The Store page adjusts the grid formatting to remove a column for better readability.</td>
+        </tr>
+        <tr>
+            <td>Your site must include images, and their alt attributes must adequately describe the image content to users of screen readers, users with images disabled, and webcrawlers.</td>
+            <td>Images used in the Home and Store pages have alt tags to appropriately describe them.</td>
+        </tr>
+        <tr>
+            <td>Each page and stylesheet of your site must validate without any warnings or errors using the Nu Validator Links to an external site. and WAVE Web Accessibility Evaluator Links to an external site..</td>
+            <td>Each page was validated against these to ensure no errors were present</td>
+        </tr>
+        <tr>
+            <td>Your site must use at least two different font faces. Headings are often rendered in a sans-serif font, and paragraph copy in a serif font.</td>
+            <td>css/main.css should show different font-families between &lt;h1&gt; elements and anything else in &lt;html&gt;.</td>
+        </tr>
+        <tr>
+            <td>Your site must include at least one form. The form need not do anything at this point in your learning, but it must be present and it must use built-in content verification. Like all content, it must be neatly aligned.</td>
+            <td>The Contact page contains this form, though input validation and sanitization (see PHP attacks) was not used.</td>
+        </tr>
+        <tr>
+            <td>Your site must include links to external sites.</td>
+            <td>The Songs page does link to SoundCloud through links.
+                The auto-generated Spotify element does also link to Spotify.
+            </td>
+        </tr>
+        <tr>
+            <td>Your site must be available at https://&lt;yourusername or your partner's username&gt;.github.io/343-s23-p1</td>
+            <td>The URL should be apprproiate to check.</td>
+        </tr>
+        <tr>
+            <td>In https://&lt;yourusername or your partner's username&gt;.github.io/343-s23-p1/report.html, write a brief report containing an itemized breakdown of how you believe you have met the expectations listed above, and linking to the PDF of your design sketch.</td>
+            <td>This is the report :)</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
