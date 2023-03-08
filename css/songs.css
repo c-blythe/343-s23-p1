@@ -12,3 +12,21 @@ div > iframe {
 div > ul {
     list-style-position: inside;
 }
+
+
+/* On mobile, Spotify's iframe will not be usable at 40% width,
+   so this is used to expand it as needed */
+
+@media (max-width: 1400px)
+{
+    div > iframe {
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px)
+{
+    div > iframe {
+        width: 70%;
+    }
+}

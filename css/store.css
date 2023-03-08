@@ -46,6 +46,9 @@
     grid-column: 1;
 }
 
+/* Sets the table to be a 2xN grid instead of 3xN
+   as it is easier to see on smaller-width devices */
+
 @media (max-width: 1400px)
 {
     .store-item > img { 
